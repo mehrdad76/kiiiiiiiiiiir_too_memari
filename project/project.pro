@@ -13,8 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    fileworker.cpp \
+    getaddressforsave.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    fileworker.h \
+    getaddressforsave.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    getaddressforsave.ui
